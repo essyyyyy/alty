@@ -1,0 +1,73 @@
+==========================================
+           DEBS ALT CTRL - COMMANDS
+==========================================
+
+PREFIX: / (configurable in main.lua)
+
+==========================================
+TELEPORTATION
+==========================================
+
+/bring [player] - Teleport to player with offset
+/unhide - Same as /bring
+/hide - Teleport to hide location
+/airlock [height] - Lock at height
+/tp [player] [location] - Advanced TP (admin, bank, club, train, host)
+/setup [area] - Teleport to areas (train, club, admin, jail, school, basketball, bank)
+/follow [player] [distance] - Follow player at distance
+
+==========================================
+MONEY COMMANDS
+==========================================
+
+/drop - Drop 15k continuously
+/cdrop [amount] - Drop 15k until amount reached
+/predrop - Pre-drop money system
+/cashdestroy on/off - Auto-destroy dropped money
+/wallet - Drop wallet item
+/stock - Show wallet amount, grab wallet, calculate total (alt #1 only)
+
+==========================================
+UTILITY
+==========================================
+
+/say [message] - Say message in chat
+/advert set [message] - Set ad message
+/advert on/off - Start/stop advertising
+/identify - Show alt number
+/lock - Anchor in place
+/unlock - Unanchor and remove airlock
+/stop - Stop all actions
+/reset - Actual respawn and return to original location
+/fps [number] - Set FPS cap
+/version - Show script version
+/face [direction] [player] - Face direction (north/south/east/west) or player
+
+==========================================
+ANIMATIONS
+==========================================
+
+/vibe 1/2 - Dance animations
+/vibe stop - Stop animations
+
+==========================================
+AUTOMATIC FEATURES
+==========================================
+
+- Player join/leave notifications
+- Low money alerts (<15k)
+- Auto unlock on teleport
+- Auto re-lock at airlock height
+- Auto-return system (returns to position after death/dragging)
+- Position monitoring (returns if moved >10 studs away)
+
+==========================================
+TOTAL COMMANDS: 23
+==========================================
+
+NOTES:
+- All commands case-insensitive
+- Smooth tween teleportation
+- Equipment state preservation
+- Works with any username/display name
+- Automatic monitoring systems 
