@@ -1,0 +1,36 @@
+64k's alt ctrl commands
+
+prefix: / (configurable in main.lua)
+
+/stop - stops almost everything
+teleportation
+/bring [player] - tp all alts on top of host
+/unhide - same as /bring lowkey..
+/hide - teleport to a hidden location
+/airlock [height] - lock at X height
+/tp [player] [location] - advanced tp (bank, club, train, host)
+/setup [area] - teleport to areas (train, club, jail, school, basketball, bank)
+
+money commands
+/drop - drop 15k continuously till u say /stop
+/cdrop [amount] - drops cash till X amount is reacher
+/dropped - how much is dropped
+/cashdestroy on/off - auto-destroy dropped money (this lowkey doesnt work rn)
+/wallet on/hide - shows wallet.
+/stock - show wallet amount, grab wallet, calculate total (alt #1 only)
+
+utility
+/say [message] - say message in chat
+/advert set [message] - set ad message
+/advert on/off - start/stop advertising
+/identify - show alt number
+/lock - anchor in place
+/unlock - unanchor and remove airlock
+/stop - stop all actions
+/fps [number] - set fps cap
+/version - show script version
+/face [direction] [player] - face direction (north/south/east/west) or player
+
+animations
+/vibe 1/2 - dance animations
+/vibe stop - stop animations
